@@ -9,7 +9,7 @@ st.title("📊 CatatBahan: Manajemen & Kalkulator Bisnis (ONLINE)")
 st.write("Aplikasi telah online dan terhubung dengan Google Sheets. Bisa diakses dari perangkat mana pun!")
 
 # Masukkan LINK GOOGLE SHEETS Anda yang sudah disalin di sini
-URL_SPREADSHEET = https://docs.google.com/spreadsheets/d/1SxJgaORreVzDi1bW0Fg1iW7h6xNwlDLfLNR3u2DuUB8/edit?usp=sharing
+URL_SPREADSHEET =https://docs.google.com/spreadsheets/d/1SxJgaORreVzDi1bW0Fg1iW7h6xNwlDLfLNR3u2DuUB8/edit?usp=sharing
 # Membuat koneksi ke Google Sheets
 try:
     conn = st.connection("gsheets", type=GSheetsConnection)
